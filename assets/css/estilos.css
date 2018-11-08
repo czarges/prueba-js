@@ -1,0 +1,56 @@
+body {
+	font-family: 'Niramit', sans-serif;
+	font-size: 16px;
+}
+
+h4 {
+	color: #1DA1F3;
+	padding-bottom: 12px;
+
+}
+
+
+
+
+.jumbotron {
+	text-align: center;
+	background: #1DA1F3;
+	color: #fff;
+}
+.jumbotron h2 {
+	font-size: 46px;
+	color: #fff;
+}
+
+ul {
+	list-style: none;
+}
+
+.foto {
+	width: 100px;
+}
+
+.un-tweet {
+	margin-bottom: 20px;
+}
+
+.like-red {
+	color:red;
+}
+
+button {
+	display: block;
+	margin:10px auto;
+}
+
+
+
+@media screen and (min-width: 768px) {
+.container {
+	width: 800px;
+	margin: 30px auto;
+}
+
+
+}
+
