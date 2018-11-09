@@ -47,7 +47,31 @@ $(function() {
 	});
 
 
+	$('.todos-tweets').on('click', '.like', function(event){
+		event.stopPropagation();
+		event.preventDefault();
+		$(this).toggleClass('like-red');
+
 	
+		
+					
+	});
+	$('.like').on('click', function(event){
+		counter = $('.numero-likes').text();
+		counter = parseInt(counter);
+		$('.numero-likes').text(counter + 1);
+
+	
+		
+					
+	});
+ 	
+ 	$('#boton').on('click', function(event){
+ 		event.stopPropagation();
+		$('.un-tweet').remove();
+	});
+
+
 
 });
 
